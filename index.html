@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Weather App</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body class="light-mode"> <!-- Default to light mode -->
+
+  <!-- Theme Toggle Button -->
+  <button id="themeToggle">🌙</button>
+
+  <div class="app-container">
+    <div class="weather-card">
+      <p id="dateTime"></p>
+
+      <!-- Mascot -->
+      <div class="mascot" id="mascot">🌤️</div>
+
+      <!-- Search Section -->
+      <input type="text" id="cityInput" placeholder="Enter city name" />
+      <button id="searchBtn">Search</button>
+
+      <!-- Weather Info -->
+      <div class="weather-info">
+        <div id="weatherCharacter" class="weather-character"></div>
+        <h2 id="cityName">City Name</h2>
+        <p id="weatherEmoji">🌤️</p>
+        <h1 id="temperature">--°C</h1>
+        <p id="description">Description</p>
+        <p id="humidity">Humidity: --%</p>
+        <p id="wind">Wind Speed: -- km/h</p>
+
+        
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
