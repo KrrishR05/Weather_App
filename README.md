@@ -1,0 +1,1 @@
+This is a simple and responsive Weather App using HTML, CSS, and JavaScript. Shows real-time weather info with dynamic backgrounds, animated emojis, a mascot, and dark/light mode toggle. Powered by the OpenWeatherMap API.
